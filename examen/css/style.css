@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'dacing';
+  src: url('dacing1.ttf');
+}
+*{
+    margin: 0px;
+        font-family: dacing;
+}
+
+body{
+
+	color: black;
+	font-size: 16px;
+
+}
+
+
+#wrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+}
+.texto{
+	color: black;
+	font-size: 20px;
+}
+header
+{
+	margin: 0 auto;
+	height: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: left;
+	background-color:  #5b7989;
+	color:white;
+	width: 100%;
+	border-radius: 10px 10px 0 0  ;
+	font-size: 20px;
+}
+
+#titulo{
+font-size: 60px;
+text-shadow: 0 0 2px #02010a;
+padding-left: 2px;
+}
+
+nav {
+	float: right;
+
+
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+		color: white;
+	}
+
+		nav ul li {
+			display: inline-block;
+			line-height: 0px;
+			color: white;
+      text-shadow: 0 0 2px #02010a;
+
+		}
+
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+        text-decoration: none;
+				color: white;
+
+			}
+
+				nav ul li a:hover {
+					background: #000000;
+				}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 400px;
+}
+
+
+	#columna1
+	{
+	background-color: #82c3a6;
+	width: 100%;
+	height: 500px;
+
+	}
+
+	#imagencuerpo
+	{
+		height:400px;
+		width: 300px;
+    -webkit-filter:drop-shadow(2px 2px #02010a);
+
+
+	}
+	#columna2
+	{
+	background-color:#d5c75f;
+	width: 100%;
+	height: 500px;
+	border: 1px solid;
+	}
+  div [class*="bloque"]{
+  min-height: 350px;
+  flex: 1 2 50%;}
+  .bloque1 {
+    color: #ddd;
+
+    order: 1;}
+
+#imagenpaisaje{
+	height: 70%;
+	width: 80%;
+  -webkit-filter:drop-shadow(2px 2px #02010a);
+
+	transition: rotate 1s;
+
+
+}
+
+#imagenpaisaje:hover{
+	transform: rotate(10deg);
+  -webkit-filter:drop-shadow(2px 2px #82c3a6);
+}
+.bloque2 {
+  color: #333;
+  order: 2;}
+
+#imagenretrato{
+	height:70%;
+	width: 80%;
+  -webkit-filter:drop-shadow(2px 2px #02010a);
+		border-radius: 2px;
+	transition: translate 1s;
+}
+#imagenretrato:hover{
+	transform: translate(10px, -5px);
+  -webkit-filter:drop-shadow(2px 2px #82c3a6);
+}
+.contenedor{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer{
+    width: 100%;
+    background:#C6d5c5;
+    color: black;
+		border-radius: 0 0 10px 10px  ;
+
+}
+
+.container-footer-all{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 1px;
+    padding: 10px;
+}
+.container-footer-all{
+  display: flex;
+  justify-content: space-between;
+}
+.columna{
+    max-width: 600px;
+
+}
+
+.columna h1{
+    font-size: 16px;
+}
+
+.row{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.columna1{
+    max-width: 600px;
+}
+
+.columna1 h1{
+    font-size: 16px;
+}
+
+.row2{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 200px;
+		color: black;
+}
+.columna2{
+    max-width: 600px;
+
+}
+
+.columna2 h1{
+    font-size: 16px;
+}
+
+.row3{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row3 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row3 label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.columna3{
+    max-width: 600px;
+
+}
+
+.columna3 h1{
+    font-size: 16px;
+}
+
+.row4{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row4 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row4 label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+  }
+
+
+@media (min-width: 900px){
+  header{
+    width: 100%;
+  }
+  #titulo{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 900px){
+
+header{
+
+  text-align: center;
+}
+nav{
+  float: inherit;
+  text-align: center;
+}
+#titulo{
+  text-align: center;
+  font-size: 35 px;
+}
+#wrapper{
+  width: 100%;
+
+}
+#columna1{
+  height: 100%;
+}
+#imagencuerpo{
+  width: 80%;
+  height: 40%
+}
+#columna1{
+
+  height: 98%;
+}
+.contenedor{
+  display:flow-root ;
+}
+#columna2{
+height: 100%;
+}
+#imagenpaisaje{
+  width: 80%;
+  height: 40%
+}
+#imagenretrato{
+  width: 80%;
+  height: 40%
+}
+div [class*="bloque"]{
+min-height: 230px;
+flex: 1 2 50%;
+}
+footer{
+  width: 100%;
+}
+.container-footer-all{
+  margin-left: 5px;
+  display: flow-root;
+  justify-content: space-between;
+}
+}

@@ -1,0 +1,388 @@
+@font-face {
+  font-family: 'dacing';
+  src: url('dacing1.ttf');
+}
+*
+{
+	margin:0;
+	  font-family: dacing;
+}
+
+
+body{
+
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+  background:  #02010a;
+}
+
+
+#wrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+
+}
+.texto{
+	color: black;
+	font-size: 20px;
+}
+header
+{
+	margin: 0 auto;
+	height: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: left;
+	background-color:  #5b7989;
+	color:white;
+	width: 100%;
+	border-radius: 10px 10px 0 0  ;
+	font-size: 20px;
+
+}
+
+#titulo{
+font-size: 40px;
+text-shadow:2px 2px 2px #02010a;
+padding-left: 2px;
+}
+
+nav {
+	float: right;
+
+
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+		color: white;
+	}
+
+		nav ul li {
+			display: inline-block;
+			line-height: 0px;
+			color: white;
+		}
+
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+text-decoration: none;
+				color: white;
+			}
+
+				nav ul li a:hover {
+					background: #02010a;
+				}
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 400px;
+}
+
+	#columna50
+	{
+	background-color:#d5c75f;
+	width: 100%;
+	height: 600px;
+	border: 1px solid;
+	}
+	div [class*="efectopaisaje"]{
+  min-height: 0px;
+  flex: 1 2 30%;
+}
+
+.efectotopaisaje1 {
+  color: #ddd;
+
+  order: 1;
+}
+#fotopaisaje1{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+
+}
+#fotopaisaje2{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+
+}
+#fotopaisaje4{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+
+}
+#fotopaisaje6{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+
+
+}
+#fotopaisaje3{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+
+
+}
+#fotopaisaje5{
+	height: 250px;
+	width: 80%;
+	box-shadow: 2px 2px 2px 0 #02010a;
+
+
+}
+.efectopaisaje2 {
+  color: #333;
+  order: 2;
+
+
+}
+
+.efectopaisaje3 {
+  color: #333;
+  order: 3;
+
+
+}
+.efectopaisaje4 {
+  color: #333;
+  order: 4;
+
+
+}
+.efectopaisaje5 {
+  color: #333;
+  order: 5;
+
+
+}
+.efectopaisaje6 {
+  color: #333;
+  order: 6;
+
+
+}
+.contenedor60{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer{
+    width: 100%;
+    background:  #C6d5c5;
+    color: black;
+		border-radius: 0 0 10px 10px  ;
+
+}
+
+.container-footer-all{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 1px;
+    padding: 10px;
+}
+.container-footer-all{
+  display: flex;
+  justify-content: space-between;
+}
+.columna{
+    max-width: 600px;
+
+}
+
+.columna h1{
+    font-size: 25px;
+		font-weight: bold;
+
+}
+
+.row{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+.columna1{
+    max-width: 600px;
+}
+
+.columna1 h1{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.row2{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+		color: black;
+}
+.columna2{
+    max-width: 600px;
+
+}
+
+.columna2 h1{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.row3{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row3 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row3 label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.columna3{
+    max-width: 600px;
+
+}
+
+.columna3 h1{
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.row4{
+    margin-top: 12px;
+    display: flex;
+}
+
+.row4 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row4 label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+
+/*imagenes reponsivas */
+
+}
+@media (min-width: 900px) {
+
+header{
+  width: 96%;
+}
+#titulo{
+  font-size: 10px;
+}
+
+}
+
+@media (max-width: 900px) {
+
+header{
+  width: 100%;
+}
+nav{
+  float: inherit;
+  text-align: center;
+}
+#titulo{
+  text-align: center;
+  font-size: 35 px;
+}
+#wrapper{
+  width: 100%;
+
+}
+#columna50{
+  height: 100%;
+}
+#imagencuerpo{
+  width: 80%;
+  height: 40%
+}
+#columna1{
+
+  height: 98%;
+}
+.contenedor60{
+  display:flow-root ;
+}
+#columna2{
+height: 100%;
+}
+#fotopaisaje{
+  width: 80%;
+  height: 40%
+}
+#fotoretrato{
+  width: 80%;
+  height: 40%
+}
+div [class*="efectopaisaje"]{
+min-height: 230px;
+flex: 1 2 50%;
+}
+footer{
+  width: 100%;
+}
+.container-footer-all{
+  margin-left: 5px;
+  display: flow-root;
+  justify-content: space-between;
+}
+}
